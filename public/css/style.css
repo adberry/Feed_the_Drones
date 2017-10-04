@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-fluid, .row, .col-xs-12 {
+  margin: 0;
+  padding: 0;
+}
+
+#map-container {
+  display: block;
+  width: 100vw;
+}
+
+#map {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: calc(100vw - 300px);
+  height: calc(100vh - 70px);
+  vertical-align: top;
+}
+
+#sidebar {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 300px;
+  height: calc(100vh - 70px);
+  vertical-align: top;
+}
+
+/*#navbar {
+  background: #34495e;
+  height: 70px;
+}
+
+#navbar * {
+  color: #ecf0f1;
+}*/
+
+#navbar {
+  display: block;
+  width: 100%;
+  height: 70px;
+  background: #34495e;
+  color: #fff;
+}
+
+#navbar h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-top: -1px;
+  padding-top: 1px;
+  font-family: 'Dosis', sans-serif!important;
+  font-weight: 600;
+  line-height: 70px;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+/*@media(max-width: )*/
+
+#navbar-links {
+  display: inline-block;
+  float: right;
+  padding-right: 20px;
+}
+
+#navbar-links span {
+  line-height: 70px;
+  margin: auto 10px;
+}
+
+/*#navbar-links span {
+  float: right;
+}
+
+#navbar ul li {
+  display: inline-block;
+}*/
+
+.video-container {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}

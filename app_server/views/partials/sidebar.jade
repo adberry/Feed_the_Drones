@@ -1,0 +1,10 @@
+#sidebar
+  //- .container-fluid
+  //-   .row
+  //-     .col-xs-12
+  if videos
+    each video in videos
+      div
+        h2= video.snippet.title
+        h5 #{video.liveStreamingDetails.concurrentViewers} watching now
+        h5= video.snippet.description
